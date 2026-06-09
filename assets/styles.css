@@ -1,0 +1,134 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #222;
+    --card-bg: #ffffff;
+}
+
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #f1f1f1;
+    --card-bg: #1e1e1e;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s ease;
+}
+
+.profile-card {
+    background: var(--card-bg);
+    transition: 0.3s ease;
+}
+
+
+.dark-mode{
+    --bg:#0f172a;
+    --card:#1e293b;
+    --text:#ffffff;
+}
+
+.card{
+    background:var(--card);
+    color:var(--text);
+    border:none;
+    border-radius:20px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.typing-text{
+    min-height:30px;
+    color:#666;
+}
+
+.tech-list span{
+    transition:.3s;
+    cursor:pointer;
+}
+
+.tech-list span:hover{
+    transform:scale(1.05);
+    background:#0d6efd;
+    color:white;
+}
+
+.fade-card{
+    opacity:0;
+    transform:translateY(30px);
+    transition:all .6s ease;
+}
+
+.fade-card.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+.profile-card,
+.developer-card{
+    height:100%;
+}
+
+.developer-card{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.timeline-item:last-child{
+    margin-bottom:0;
+}
+
+.profile-container{
+    width:180px;
+    height:180px;
+    margin:auto;
+    overflow:hidden;
+    border-radius:20px;
+    border:4px solid #fff;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.profile-img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.3s ease;
+}
+
+.profile-img:hover{
+    transform:scale(1.05);
+}
+
+.tech-badge{
+    background: #f8f9fa;
+    color: #212529;
+    border: 1px solid #dee2e6;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.tech-badge:hover{
+    background: #0d6efd;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.contact-item {
+    padding: 12px 15px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.contact-item:hover {
+    background: #f8f9fa;
+    transform: translateY(-3px);
+    border-color: #ddd;
+}
