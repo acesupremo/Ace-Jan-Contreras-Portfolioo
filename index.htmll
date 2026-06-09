@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Developer Portfolio</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/style.css" rel="stylesheet">
+<script src="js/app.js"></script>
+</head>
+
+<body>
+
+<div class="container py-5">
+    <div class="card border-0 shadow-sm p-4 profile-card fade-card">
+        <div class="row align-items-center">
+                <div class="col-md-2 text-center">
+                    <div class="profile-container">
+                        <img src="images/profile.jpg"
+                            alt="Profile"
+                            class="profile-img img-fluid">
+                        </div>
+                    </div>
+            <div class="col-md-10">
+                <div class="d-flex justify-content-between align-items-start flex-wrap">
+                    <div>
+                        <h2 class="fw-bold">
+                            Ace Jan Molina Contreras
+                            <i class="bi bi-patch-check-fill text-primary"></i>
+                        </h2>
+                        <p class="text-muted mb-2">
+                            <i class="bi bi-geo-alt"></i>
+                            Las Pinas, Metro Manila, Philippines
+                        </p>
+                       <h5 id="typing" class="typing-text"></h5>
+                    </div>
+                </div>
+<div class="mt-3">
+
+    <button class="btn btn-dark me-2">
+        <i class="bi bi-calendar"></i>
+        Schedule a Call
+    </button>
+
+<a href="mailto:acejan08@gmail.com?subject=Project Inquiry&body=Hello, I would like to discuss a project with you."
+   class="btn btn-outline-secondary me-2">
+    <i class="bi bi-envelope"></i>
+    Send Email
+</a>
+
+</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- CONTENT -->
+    <div class="row mt-4">
+
+        <!-- LEFT -->
+        <div class="col-lg-8">
+
+            <!-- ABOUT -->
+            <div class="card border-0 shadow-sm p-4 mb-4 fade-card">
+
+                <h3 class="fw-bold mb-4">
+                    About
+                </h3>
+
+                <p>
+                    I am a Freelance Web Developer and System Developer dedicated to helping businesses, organizations, and entrepreneurs streamline their operations through innovative and customized software solutions. With experience in developing web-based applications, management systems, and business automation tools, I create scalable, secure, and user-friendly systems tailored to meet specific business requirements.
+                </p>
+
+                <p>
+                    My expertise covers the full software development lifecycle, from requirements analysis and system design to development, testing, deployment, and maintenance. I focus on building solutions that improve efficiency, reduce manual work, enhance data management, and support business growth.
+                </p>
+
+            </div>
+
+            <!-- TECH STACK -->
+            <div class="card border-0 shadow-sm p-4 fade-card">
+
+                <div class="d-flex justify-content-between">
+
+                    <h3 class="fw-bold">
+                        Tech Stack
+                    </h3>
+
+                    <a href="#" class="text-decoration-none">
+                        View All
+                    </a>
+
+                </div>
+
+                <div class="mt-4">
+
+                    <h5 class="fw-bold">
+                        Frontend
+                    </h5>
+
+                    <div class="tech-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap5</span>
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                        <span>React</span>
+                        <span>Next.js</span>
+                        <span>Vue.js</span>
+                        <span>Tailwind CSS</span>
+                    </div>
+
+                    <h5 class="fw-bold mt-4">
+                        Backend
+                    </h5>
+
+                    <div class="tech-list">
+                        <span>Node.js</span>
+                        <span>Python</span>
+                        <span>PHP</span>
+                        <span>Laravel</span>
+                        <span>PostgreSQL</span>
+                        <span>MongoDB</span>
+                        <span>MySQL</span>
+                    </div>
+
+                    <h5 class="fw-bold mt-4">
+                        Programming Languages
+                    </h5>
+
+                    <div class="tech-list">
+                        <span>JAVA</span>
+                        <span>C++</span>
+                        <span>PYTHON</span>
+                        <span>C#</span>
+                        <span>RUBY</span>
+                        <span>PHP</span>
+                        <span>JAVASCRIPT</span>
+                    </div>
+
+                    <h5 class="fw-bold mt-4">
+                        Developer tools
+                    </h5>
+
+                    <div class="tech-list">
+                        <span>GIT</span>
+                        <span>GitHUB</span>
+                        <span>VS CODE</span>
+                        <span>PyCharm</span>
+                        <span>Discord</span>
+                        <span>Figma</span>
+                    </div>
+                </div>
+                        <!-- SERVICES -->
+<div class="card border-0 shadow-sm p-4 mt-4 fade-card">
+
+    <h3 class="fw-bold mb-4">Services</h3>
+
+    <div class="tech-list">
+
+        <span>Custom Web Development</span>
+        <span>POS & Inventory Systems</span>
+        <span>Payroll Systems</span>
+        <span>Reservation Systems</span>
+        <span>Online Ordering Systems</span>
+        <span>E-Commerce Development</span>
+        <span>Barangay Information Systems</span>
+        <span>System Maintenance</span>
+        <span>Database Design</span>
+        <span>API Development</span>
+
+    </div>
+
+</div>
+
+<!-- EXPERIENCE -->
+<div class="card border-0 shadow-sm p-4 mt-4 fade-card">
+
+    <h3 class="fw-bold mb-4">Experience</h3>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h6>TOPCIT (Test of Practical Competency in ICT)</h6>
+            <p>
+                Participant Year 2023<br>
+                Participated in the global ICT competency assessment program under Makati Science Technological Institute of the Philippines (MSTIP).
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT -->
+        <div class="col-lg-4">
+
+            <!-- EXPERIENCE -->
+            <div class="card border-0 shadow-sm p-4 fade-card">
+
+                <h3 class="fw-bold mb-4">
+                    Projects
+                </h3>
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+                        <h6>Sweet Heart Treats Cafe POS and Inventory System</h6>
+                        <p>- Developed a desktop-based Point of Sale and Inventory Management System using Java NetBeans to improve sales tracking, inventory monitoring, and reporting.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h6>Online Reservation Management System for Your Neighbor’s Cafe</h6>
+                        <p>- Designed and developed a web-based reservation platform that allows customers to book tables online while enabling administrators to manage reservations efficiently.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h6>Auto Parts Inventory Management System for Comet Transportation Cooperative</h6>
+                        <p>- Built a comprehensive inventory system for tracking auto parts, stock levels, supplier information, and inventory transactions.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h6>Web-Based Inventory Management System with Stock Analytics</h6>
+                        <p>- Created a business inventory solution featuring real-time stock monitoring, analytics dashboards, inventory forecasting, and detailed reporting capabilities.</p>                    
+                    </div>
+
+                    <div class="timeline-item">
+                        <h6>Online Ordering Management System for Byte Sales Wholesale</h6>
+                        <p>- Created a business inventory solution featuring real-time stock monitoring, analytics dashboards, inventory forecasting, and detailed reporting capabilities.</p>                    
+                    </div>
+
+                    <div class="timeline-item">
+                        <h6>Payroll Management System for Atlas Bouncer Services</h6>
+                        <p>- Designed a payroll solution that automates salary computation, attendance tracking, deductions, and employee payroll reports.
+                        </p>                    
+                    </div>
+
+
+                    <div class="timeline-item">
+                        <h6>Integrated Barangay Payatas B Information Management System</h6>
+                        <p>- Developed a centralized information system for managing resident records, certificates, reports, and administrative transactions.
+                        </p>                    
+                    </div>
+
+
+                    <div class="timeline-item">
+                        <h6>Online Store System with Real-Time Order Tracking for Kristel’s Cakes and Pastry</h6>
+                        <p>- Built a complete e-commerce platform featuring online ordering, payment integration, inventory tracking, and real-time order status updates.
+                        </p>                    
+                    </div>
+
+
+                    <div class="timeline-item">
+                        <h6>Web-Based Inventory Management System with Stock Analytics</h6>
+                        <p>- Developed an online ordering platform that simplifies order processing, customer management, and sales tracking for wholesale operations.
+                        </p>                    
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+<!-- CONTACT -->
+<div class="card border-0 shadow-sm p-4 mt-4 fade-card">
+
+    <h3 class="fw-bold mb-4">Contact</h3>
+
+    <div class="row g-3">
+
+        <!-- EMAIL -->
+        <div class="col-md-6">
+            <a href="mailto:acejan08@gmail.com"
+               class="d-flex align-items-center gap-2 text-decoration-none text-dark contact-item">
+                <i class="bi bi-envelope-fill fs-5 text-primary"></i>
+                <span>Email Me</span>
+            </a>
+        </div>
+
+        <!-- PHONE -->
+        <div class="col-md-6">
+            <a href="tel:+639637063665"
+               class="d-flex align-items-center gap-2 text-decoration-none text-dark contact-item">
+                <i class="bi bi-telephone-fill fs-5 text-success"></i>
+                <span>Call Me</span>
+            </a>
+        </div>
+
+        <!-- FACEBOOK -->
+        <div class="col-md-6">
+            <a href="https://www.facebook.com/acejan.contreras.7/"
+               target="_blank"
+               class="d-flex align-items-center gap-2 text-decoration-none text-dark contact-item">
+                <i class="bi bi-facebook fs-5 text-primary"></i>
+                <span>Facebook</span>
+            </a>
+        </div>
+
+        <!-- INSTAGRAM -->
+        <div class="col-md-6">
+            <a href="https://www.instagram.com/1st_soju/"
+               target="_blank"
+               class="d-flex align-items-center gap-2 text-decoration-none text-dark contact-item">
+                <i class="bi bi-instagram fs-5 text-danger"></i>
+                <span>Instagram</span>
+            </a>
+        </div>
+
+        <!-- LINKEDIN -->
+        <div class="col-md-6">
+            <a href="https://www.linkedin.com/in/yourprofile"
+               target="_blank"
+               class="d-flex align-items-center gap-2 text-decoration-none text-dark contact-item">
+                <i class="bi bi-linkedin fs-5 text-primary"></i>
+                <span>LinkedIn</span>
+            </a>
+        </div>
+
+        <!-- GITHUB -->
+        <div class="col-md-6">
+            <a href="https://github.com/acesupremo"
+               target="_blank"
+               class="d-flex align-items-center gap-2 text-decoration-none text-dark contact-item">
+                <i class="bi bi-github fs-5 text-dark"></i>
+                <span>GitHub</span>
+            </a>
+        </div>
+
+    </div>
+
+</div>
+    </div>
+
+</div>
+<!-- FOOTER -->
+<footer class="text-center mt-5 py-4 border-top">
+    <p class="mb-0 text-muted">
+        © 2026 Ace Jan Contreras. All rights reserved.
+    </p>
+</footer>
+</body>
+</html>
